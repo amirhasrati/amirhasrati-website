@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/cloudflare";
+import Center from "~/sections/Center";
 
 export const meta: MetaFunction = () => {
   return [
@@ -12,8 +13,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div>
-      <h1>Amir Hasrati</h1>
+    <div className="grid grid-cols-1">
+      <Center />
     </div>
   );
 }
