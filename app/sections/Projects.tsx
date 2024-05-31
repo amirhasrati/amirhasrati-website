@@ -2,10 +2,11 @@ import Project from "~/components/Project";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col gap-8">
-      <h2 className="font-semibold text-xl text-neutral-900">PROJECTS</h2>
+    <section className="flex flex-col gap-16">
+      <h2 className="font-semibold text-neutral-900 text-xl">PROJECTS</h2>
       <Project
         title="To-do List App"
+        projectUrl="https://github.com/amirhasrati/todulo-app"
         description="A simple to-do app and my first full-stack application! Responsive and user-friendly UI components built with React.js and Tailwind CSS. Back-end built with Express.js and MongoDB."
         imgUrl="/todulo-app.png"
         imgAlt="Image of To-do List App"
@@ -13,6 +14,7 @@ export default function Projects() {
       />
       <Project
         title="Whack-A-Mole Game"
+        projectUrl=""
         description="Whack-A-Cloud. Inspired by the classic carnival game, “Whack-A-Mole”, this game was built as a project for my high-school computer science course with the PyGame library."
         imgUrl="/whack-a-cloud.png"
         imgAlt="Image of Whack-A-Cloud game."

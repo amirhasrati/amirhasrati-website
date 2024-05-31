@@ -1,7 +1,3 @@
 export default function Left() {
-    return (
-        <div>
-            <p>Left</p>
-        </div>
-    )
+  return <div className="grow border-r border-neutral-300"></div>;
 }
