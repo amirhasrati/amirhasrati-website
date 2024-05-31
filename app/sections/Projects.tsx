@@ -2,7 +2,7 @@ import Project from "~/components/Project";
 
 export default function Projects() {
   return (
-    <section className="flex flex-col gap-16">
+    <section id="projects" className="flex flex-col gap-16">
       <h2 className="font-semibold text-neutral-900 text-xl">PROJECTS</h2>
       <Project
         title="To-do List App"

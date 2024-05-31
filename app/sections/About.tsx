@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="flex flex-col gap-8">
+    <section id="about" className="flex flex-col gap-8">
       <h2 className="font-semibold text-xl text-neutral-900">ABOUT</h2>
       <p className="text-neutral-600">
         Ever since I first played Club Penguin on my dad’s old Sony VAIO, I’ve been passionate about computers. Fast

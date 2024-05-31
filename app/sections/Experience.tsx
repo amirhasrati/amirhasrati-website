@@ -2,7 +2,7 @@ import ExperienceItem from "~/components/ExperienceItem";
 
 export default function Experience() {
   return (
-    <section className="flex flex-col gap-8">
+    <section id="experience" className="flex flex-col gap-8">
       <h2 className="font-semibold text-xl text-neutral-900">EXPERIENCE</h2>
       <ExperienceItem
         date="MAY 2024"
