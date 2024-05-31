@@ -1,6 +1,5 @@
 import type { FC } from "react";
 import Tag from "./Tag";
-import { Link } from "@remix-run/react";
 
 const Project: FC<{
   title: string;
@@ -13,9 +12,14 @@ const Project: FC<{
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <Link to={projectUrl} className="font-semibold text-lg text-indigo-700 underline">
+        <a
+          href={projectUrl}
+          rel="noreferrer"
+          target="_blank"
+          className="font-semibold text-lg text-indigo-700 underline"
+        >
           {title}
-        </Link>
+        </a>
         <p className="text-neutral-600">{description}</p>
       </div>
       <img className="rounded-md" src={imgUrl} alt={imgAlt} />

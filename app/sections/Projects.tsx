@@ -14,7 +14,7 @@ export default function Projects() {
       />
       <Project
         title="Whack-A-Mole Game"
-        projectUrl=""
+        projectUrl="https://github.com/amirhasrati/whack-a-cloud"
         description="Whack-A-Cloud. Inspired by the classic carnival game, “Whack-A-Mole”, this game was built as a project for my high-school computer science course with the PyGame library."
         imgUrl="/whack-a-cloud.png"
         imgAlt="Image of Whack-A-Cloud game."
