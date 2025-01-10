@@ -5,6 +5,14 @@ export default function Experience() {
     <section id="experience" className="flex flex-col gap-8">
       <h2 className="font-semibold text-xl text-neutral-900">EXPERIENCE</h2>
       <ExperienceItem
+        date="SEP - DEC 2024"
+        title="Software Developer Intern"
+        company="Descartes Systems Group"
+        description="Redesigned and developed client website using Remix and React, significantly improving the user interface and delivering a seamless user experience. Optimized website content to enhance search engine rankings, adhering to Google’s technical requirements and spam policies. Implemented responsive design techniques, ensuring website functions flawlessly across various devices and screen sizes."
+        tags={[".NET 8", "React", "Azure", "JavaScript", "SQL"]}
+        linkTo={"/coop/work-term-1"}
+      />
+      <ExperienceItem
         date="MAY 2024"
         title="Freelance Web Designer & Developer"
         company="Argentium Consulting"

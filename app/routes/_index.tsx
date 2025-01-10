@@ -13,16 +13,18 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+const sections = ["about", "experience", "projects"];
+
 export default function Index() {
   return (
-    <div className="w-screen flex">
-      <div className="hidden sm:flex w-1/6">
-        <Left />
+    <div className="flex w-screen">
+      <div className="hidden w-1/6 sm:flex">
+        <Left sections={sections} />
       </div>
-      <div className="sm:w-2/3 flex justify-center">
+      <div className="flex justify-center sm:w-2/3">
         <Center />
       </div>
-      <div className="hidden sm:flex w-1/6">
+      <div className="hidden w-1/6 sm:flex">
         <Right />
       </div>
     </div>
