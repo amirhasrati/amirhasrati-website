@@ -4,6 +4,7 @@ import { useLoaderData } from "@remix-run/react";
 import Left from "~/sections/Left";
 import Right from "~/sections/Right";
 import WorkTerm1 from "~/components/work-terms/work-term-1/WorkTerm1";
+import WorkTerm2 from "~/components/work-terms/work-term-2/WorkTerm2";
 
 const sections = ["introduction", "employer", "goals", "job description", "conclusion", "acknowledgments"];
 
@@ -11,6 +12,8 @@ const renderWorkTerm = (workTermNumber: number) => {
   switch (workTermNumber) {
     case 1:
       return <WorkTerm1 />;
+    case 2:
+      return <WorkTerm2 />;
     default:
       return <div>Invalid work term number</div>;
   }
