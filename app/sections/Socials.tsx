@@ -8,7 +8,7 @@ export default function Socials() {
     <div className="flex items-center justify-center gap-4">
       <SocialBtn icon={<GithubIcon />} href="https://github.com/amirhasrati" />
       <SocialBtn icon={<LinkedInIcon />} href="https://www.linkedin.com/in/amirhasrati/" />
-      <SocialBtn icon={<ResumeIcon />} href="/Amirhossein_Hasrati_Resume.pdf" />
+      <SocialBtn icon={<ResumeIcon />} href="/ahasrati_resume_F25.pdf" />
     </div>
   );
 }
