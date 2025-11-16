@@ -6,12 +6,11 @@ export default function Projects() {
       <h2 className="font-semibold text-neutral-900 text-xl">PROJECTS</h2>
       <Project
         title="Space Game"
-        projectUrl="https://amirhasrati.com/"
+        projectUrl="https://github.com/amirhasrati/spacegame"
         description="My first 2D game built with Godot. I had a lot of fun drawing the art and creating the music for this one :)"
-        isIFrame={true}
-        imgUrl="/games/SpaceShooter/SpaceShooter.html"
+        isIFrame={false}
+        imgUrl="/SpaceShooter_Preview.png"
         imgAlt="A window containing my space game."
-        previewImgUrl="/games/SpaceShooter/SpaceShooter_Preview.png"
         tags={["Godot", "GDScript", "Procreate", "FL Studio"]}
       />
       <Project
